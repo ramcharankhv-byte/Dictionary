@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <title>Dictionary</title>
+  </head>
+  <body class="bg-neutral-900 text-white">
+    <div id="screen" class="screen flex flex-col">
+      <div class="flex-none">
+        <div class="title">
+          <h1
+            class="text-gray-300 text-3xl font-serif text-center md:text-4xl lg:text-5xl p-1 m-1"
+          >
+            Dictionary
+          </h1>
+        </div>
+        <div class="input flex mx-2">
+          <input
+            id="wordInp"
+            type="text"
+            class="flex-1 bg-gray-200 text-center border-none h-10 outline-none rounded-md text-black px-2 py-0"
+            placeholder="Enter the word"
+          />
+          <button
+            id="sbmtBtn"
+            type="submit"
+            class="flex-none cursor-pointer bg-green-500 w-22 h-10 ml-1 px-2 rounded-md text-white hover:bg-green-600 transition"
+          >
+            submit
+          </button>
+        </div>
+      </div>
+      <div id="display"></div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
