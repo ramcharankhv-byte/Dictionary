@@ -4,6 +4,7 @@ A simple and responsive Dictionary web app that fetches word meanings using a fr
 Built using **HTML, Tailwind CSS, and JavaScript**.
 
 ---
+https://ramcharankhv-byte.github.io/Dictionary/
 
 ## 🚀 Features
 
